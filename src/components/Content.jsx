@@ -7,13 +7,15 @@ import Collections from 'views/Collections';
 
 function Content() {
 	return (
-		<main>
+		<main className='w-full overflow-auto'>
 			<Navbar />
-			<Routes>
-				<Route path='/' element={<Home />} />
-				<Route path='/search' element={<Search />} />
-				<Route path='/collections' element={<Collections />} />
-			</Routes>
+			<div className='px-8 pt-5'>
+				<Routes>
+					<Route path='/' element={<Home />} />
+					<Route path='/search' element={<Search />} />
+					<Route path='/collections' element={<Collections />} />
+				</Routes>
+			</div>
 		</main>
 	);
 }

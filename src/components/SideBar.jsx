@@ -6,7 +6,7 @@ import DownloadApp from 'components/Sidebar/DownloadApp';
 
 function SideBar() {
 	return (
-		<aside className='w-60 pt-6 flex flex-col bg-black'>
+		<aside className='w-60 pt-6 flex flex-shrink-0 flex-col bg-black'>
 			<a href='#' className='mb-4 px-5'>
 				<img src={Spotify} alt='' className='h-10' />
 			</a>
