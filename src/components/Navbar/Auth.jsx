@@ -39,7 +39,7 @@ function Auth() {
 										className={`h-10 flex justify-between items-center px-2 text-sm rounded ${
 											active && 'bg-white bg-opacity-10'
 										}`}
-										href='/account-settings'>
+										href='https://github.com/Furkangunduz/Spotify-clone'>
 										Hesap
 										<Icon name='external' />
 									</a>
