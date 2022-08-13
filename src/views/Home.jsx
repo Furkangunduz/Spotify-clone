@@ -9,7 +9,8 @@ function Home() {
 			artist: 'Tayfun Abi',
 			image: 'https://i.scdn.co/image/ab67706c0000da84fcb8b92f2615d3261b8eb146',
 			type: 'album',
-			src: 'https://freesound.org/data/previews/612/612095_5674468-lq.mp3',
+			src: 'http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3',
+			artist: 'kraldragon',
 		},
 		{
 			id: 2,
@@ -18,7 +19,8 @@ function Home() {
 			description: 'Relax and indulge with beautiful piano pieces',
 			image: 'https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6',
 			type: 'album',
-			src: 'https://freesound.org/data/previews/612/612092_7037-lq.mp3',
+			src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+			artist: 'kraldragon',
 		},
 		{
 			id: 3,
@@ -27,7 +29,8 @@ function Home() {
 			description: 'Artist',
 			image: 'https://i.scdn.co/image/ab67616100005174802686196d39eb0b7b5cd8b1',
 			type: 'artist',
-			src: 'https://freesound.org/data/previews/612/612087_1648170-lq.mp3',
+			src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+			artist: 'kraldragon',
 		},
 		{
 			id: 4,
@@ -36,7 +39,8 @@ function Home() {
 			description: 'Original Soundtrack',
 			image: 'https://i.scdn.co/image/d39397d2f6a1525b3fe90369c89ea2d94aac5714',
 			type: 'podcast',
-			src: 'https://freesound.org/data/previews/612/612085_28867-lq.mp3',
+			src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+			artist: 'kraldragon',
 		},
 		{
 			id: 5,
@@ -46,15 +50,16 @@ function Home() {
 			image: 'https://i.scdn.co/image/ab67706c0000da84fcb8b92f2615d3261b8eb146',
 			type: 'album',
 			src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+			artist: 'kraldragon',
 		},
 	];
 
 	return (
-		<>
+		<div className='flex flex-col gap-y-4'>
 			<Section title='Yakınlarda Çalınanlar' more={true} items={items} />
 			<Section title='Kaldığın yerden devam et' more={true} items={items} />
 			<Section title='En çok dinlediğin mixler' more={true} items={items} />
-		</>
+		</div>
 	);
 }
 
