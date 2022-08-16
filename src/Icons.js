@@ -297,6 +297,7 @@ const Icon = ({ name, size = 24 }) => {
         volumeFull: VolumeFullIcon,
         lyrics: LyricsIcon,
         arrowLeft: ArrowLeftIcon,
+        logo: LogoIcon
     }
 
     const Component = icons[name]
