@@ -132,12 +132,12 @@ function Player() {
 						}}
 					/>
 				</div>
-				<button onClick={toggle}>
+				<button onClick={current && toggle}>
 					<Icon name='fullScreen' size={16} />
 				</button>
 			</div>
 			<div ref={fsRef}>
-				{isFullscreen && (
+				{isFullscreen && current && (
 					<FullScreenPlayer
 						toggle={toggle}
 						state={state}
