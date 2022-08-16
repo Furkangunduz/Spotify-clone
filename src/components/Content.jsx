@@ -7,7 +7,7 @@ import Collections from 'views/Collections';
 
 function Content() {
 	return (
-		<main className='w-full overflow-auto'>
+		<main className='w-full overflow-auto no-scrollbar'>
 			<Navbar />
 			<div className='px-8 pt-5'>
 				<Routes>

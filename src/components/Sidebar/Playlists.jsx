@@ -1,6 +1,6 @@
 function Playlists() {
 	return (
-		<nav className='mx-6 pt-2 mt-2 border-t border-white border-opacity-20 overflow-auto '>
+		<nav className='mx-6 pt-2 mt-2 border-t border-white border-opacity-20 overflow-auto no-scrollbar'>
 			<ul>
 				{new Array(30).fill(
 					<li>
